@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch=".." name="origin" review="code.fairphone.com/gerrit"/>  
-  <default remote="origin" revision="fp2-sibon" />
+  <default remote="origin" revision="fp2_sibon_new" />
   <project groups="pdk" name="fp2-dev/device/asus/deb" path="device/asus/deb" />
   <project groups="pdk" name="fp2-dev/device/asus/flo" path="device/asus/flo" />
   <project groups="pdk" name="fp2-dev/device/asus/flo-kernel" path="device/asus/flo-kernel" />
@@ -518,7 +518,7 @@
 <!--- Proprietary repo -->
   <project name="fp2-dev/platform/packages/apps/FairphoneUpdater" path="packages/apps/FairphoneUpdater" />
   <project name="fp2-dev/device/fairphone_devices/common" path="device/fairphone_devices/common" />
-  <project name="fp2-dev/device/fairphone_devices/fairphone" path="device/fairphone_devices/fairphone" />
+  <project name="fp2-dev/device/fairphone_devices/fairphone" path="device/fairphone_devices/FP2" />
   <project name="fp2-dev/device/fairphone_devices/sepolicy" path="device/fairphone_devices/sepolicy"/>
   <project path="packages/apps/FairphoneLauncher3" name="fp2-dev/platform/packages/apps/FairphoneLauncher3"/>
   <project name="fp2-dev/platform/packages/apps/ClockWidget" path="packages/apps/ClockWidget" />
