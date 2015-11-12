@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch=".." name="origin" review="code.fairphone.com/gerrit"/>  
-  <default remote="origin" revision="fp2_sibon" />
+  <default remote="origin" revision="fp2-sibon" />
   <project groups="pdk" name="fp2-dev/device/asus/deb" path="device/asus/deb" />
   <project groups="pdk" name="fp2-dev/device/asus/flo" path="device/asus/flo" />
   <project groups="pdk" name="fp2-dev/device/asus/flo-kernel" path="device/asus/flo-kernel" />
