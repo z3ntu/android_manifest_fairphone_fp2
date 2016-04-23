@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch=".." name="origin" review="code.fairphone.com/gerrit"/>  
   <remote name="z3ntu" fetch="https://github.com/z3ntu" />
+  <remote name="Tasssadar" fetch="https://github.com/Tasssadar" />
   <default remote="origin" revision="fp2-sibon" />
   <project groups="pdk" name="fp2-dev/device/asus/deb" path="device/asus/deb" />
   <project groups="pdk" name="fp2-dev/device/asus/flo" path="device/asus/flo" />
@@ -45,7 +46,8 @@
   <project groups="pdk" name="fp2-dev/platform/art" path="art" />
   <project groups="pdk" name="fp2-dev/platform/bionic" path="bionic" />
   <project groups="pdk-cw-fs" name="fp2-dev/platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" />
-  <project groups="pdk" name="fp2-dev/platform/bootable/recovery" path="bootable/recovery" />
+  <!--<project groups="pdk" name="fp2-dev/platform/bootable/recovery" path="bootable/recovery" />-->
+  <project name="Team-Win-Recovery-Project" remote="Tasssadar" path="bootable/recovery" />
   <project groups="pdk" name="fp2-dev/platform/build" path="build" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -529,4 +531,7 @@
   <project name="fp2-dev/platform/packages/apps/Amaze" path="packages/apps/Amaze" />
   <project name="fp2-dev/system/extras/appops_su" path="system/extras/appops_su"/>
   <project name="fp2-dev/platform/external/busybox" path="external/busybox" />
+<!--- More MultiROM stuff -->
+  <project name="multirom" path="system/extras/multirom" remote="Tasssadar" />
+  <project name="libbootimg" path="system/extras/libbootimg" remote="Tasssadar" />
 </manifest>
