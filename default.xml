@@ -533,6 +533,6 @@
   <project name="fp2-dev/platform/external/busybox" path="external/busybox" />
 <!--- More MultiROM stuff -->
   <!--<project name="multirom" path="system/extras/multirom" remote="Tasssadar" revision="master" />-->
-  <project name="multirom" path="system/extras/multirom" remote="z3ntu" revision="patch-1" />
+  <!--<project name="multirom" path="system/extras/multirom" remote="z3ntu" revision="patch-1" />-->
   <project name="libbootimg" path="system/extras/libbootimg" remote="Tasssadar" revision="master" />
 </manifest>
