@@ -47,7 +47,7 @@
   <project groups="pdk" name="fp2-dev/platform/bionic" path="bionic" />
   <project groups="pdk-cw-fs" name="fp2-dev/platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" />
   <!--<project groups="pdk" name="fp2-dev/platform/bootable/recovery" path="bootable/recovery" />-->
-  <project name="Team-Win-Recovery-Project" remote="Tasssadar" path="bootable/recovery" />
+  <project name="Team-Win-Recovery-Project" remote="Tasssadar" path="bootable/recovery" revision="android-6.0" />
   <project groups="pdk" name="fp2-dev/platform/build" path="build" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -532,6 +532,6 @@
   <project name="fp2-dev/system/extras/appops_su" path="system/extras/appops_su"/>
   <project name="fp2-dev/platform/external/busybox" path="external/busybox" />
 <!--- More MultiROM stuff -->
-  <project name="multirom" path="system/extras/multirom" remote="Tasssadar" />
-  <project name="libbootimg" path="system/extras/libbootimg" remote="Tasssadar" />
+  <project name="multirom" path="system/extras/multirom" remote="Tasssadar" revision="master" />
+  <project name="libbootimg" path="system/extras/libbootimg" remote="Tasssadar" revision="master" />
 </manifest>
