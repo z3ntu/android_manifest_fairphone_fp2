@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch=".." name="origin" review="code.fairphone.com/gerrit"/>  
+  <remote name="z3ntu" fetch="https://github.com/z3ntu" />
   <default remote="origin" revision="fp2-sibon" />
   <project groups="pdk" name="fp2-dev/device/asus/deb" path="device/asus/deb" />
   <project groups="pdk" name="fp2-dev/device/asus/flo" path="device/asus/flo" />
@@ -38,7 +39,8 @@
   <project groups="pdk" name="fp2-dev/device/sample" path="device/sample" />
   <project groups="pdk" name="fp2-dev/device/samsung/manta" path="device/samsung/manta" />
   <project name="fp2-dev/kernel/lk" path="bootable/bootloader/lk" />
-  <project name="fp2-dev/kernel/msm" path="kernel" />
+  <!--<project name="fp2-dev/kernel/msm" path="kernel" />-->
+  <project name="android_kernel_fairphone_fp2" remote="z3ntu" revision="multirom" path="kernel" />
   <project groups="pdk" name="fp2-dev/platform/abi/cpp" path="abi/cpp" />
   <project groups="pdk" name="fp2-dev/platform/art" path="art" />
   <project groups="pdk" name="fp2-dev/platform/bionic" path="bionic" />
@@ -518,7 +520,8 @@
 <!--- Proprietary repo -->
   <project name="fp2-dev/platform/packages/apps/FairphoneUpdater" path="packages/apps/FairphoneUpdater" />
   <project name="fp2-dev/device/fairphone_devices/common" path="device/fairphone_devices/common" />
-  <project name="fp2-dev/device/fairphone_devices/fairphone" path="device/fairphone_devices/FP2" />
+  <!--<project name="fp2-dev/device/fairphone_devices/fairphone" path="device/fairphone_devices/FP2" />-->
+  <project name="android_device_fairphone_fp2" path="device/fairphone_devices/FP2" remote="z3ntu" revision="multirom" />
   <project name="fp2-dev/device/fairphone_devices/sepolicy" path="device/fairphone_devices/sepolicy"/>
   <project path="packages/apps/FairphoneLauncher3" name="fp2-dev/platform/packages/apps/FairphoneLauncher3"/>
   <project name="fp2-dev/platform/packages/apps/ClockWidget" path="packages/apps/ClockWidget" />
