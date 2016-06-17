@@ -43,7 +43,7 @@
   <project groups="pdk" name="fp2-dev/platform/art" path="art" />
   <project groups="pdk" name="fp2-dev/platform/bionic" path="bionic" />
   <project groups="pdk-cw-fs" name="fp2-dev/platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" />
-  <project groups="pdk" name="fp2-dev/platform/bootable/recovery" path="bootable/recovery" />
+  <project groups="pdk" name="fp2-dev/platform/bootable/recovery" path="bootable/recovery" revision="fp2-sibon-twrp" />
   <project groups="pdk" name="fp2-dev/platform/build" path="build" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
