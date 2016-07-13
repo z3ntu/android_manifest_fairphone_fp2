@@ -3,7 +3,7 @@
   <remote fetch="http://code.fairphone.com/gerrit" name="origin" review="code.fairphone.com/gerrit"/>  
   <remote name="z3ntu" fetch="https://github.com/z3ntu" />
   <remote name="Tasssadar" fetch="https://github.com/Tasssadar" />
-  <default remote="origin" revision="refs/tags/FP2-open-16.05.0" />
+  <default remote="origin" revision="fp2-sibon" />
   <project groups="pdk" name="fp2-dev/device/asus/deb" path="device/asus/deb" />
   <project groups="pdk" name="fp2-dev/device/asus/flo" path="device/asus/flo" />
   <project groups="pdk" name="fp2-dev/device/asus/flo-kernel" path="device/asus/flo-kernel" />
