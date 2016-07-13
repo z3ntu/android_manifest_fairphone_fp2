@@ -46,7 +46,7 @@
   <project groups="pdk" name="fp2-dev/platform/art" path="art" />
   <project groups="pdk" name="fp2-dev/platform/bionic" path="bionic" />
   <project groups="pdk-cw-fs" name="fp2-dev/platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" />
-  <!--<project groups="pdk" name="fp2-dev/platform/bootable/recovery" path="bootable/recovery" />-->
+  <!--<project groups="pdk" name="fp2-dev/platform/bootable/recovery" path="bootable/recovery" revision="fp2-sibon-twrp" />-->
   <project name="Team-Win-Recovery-Project" remote="Tasssadar" path="bootable/recovery" revision="android-6.0" />
   <project groups="pdk" name="fp2-dev/platform/build" path="build" >
     <copyfile dest="Makefile" src="core/root.mk"/>
@@ -519,7 +519,6 @@
   <project name="fp2-dev/platform/vendor/qcom/copper" path="device/qcom/msm8974" />
   <project name="fp2-dev/platform/vendor/qcom/msm8226" path="device/qcom/msm8226" />
   <project name="fp2-dev/platform/vendor/qcom/msm8610" path="device/qcom/msm8610" />
-<!--- Proprietary repo -->
   <project name="fp2-dev/platform/packages/apps/FairphoneUpdater" path="packages/apps/FairphoneUpdater" />
   <project name="fp2-dev/device/fairphone_devices/common" path="device/fairphone_devices/common" />
   <!--<project name="fp2-dev/device/fairphone_devices/fairphone" path="device/fairphone_devices/FP2" />-->
@@ -531,6 +530,7 @@
   <project name="fp2-dev/platform/packages/apps/Amaze" path="packages/apps/Amaze" />
   <project name="fp2-dev/system/extras/appops_su" path="system/extras/appops_su"/>
   <project name="fp2-dev/platform/external/busybox" path="external/busybox" />
+  <project name="fp2-dev/platform/packages/apps/SetupWizard" path="packages/apps/SetupWizard" />
 <!--- More MultiROM stuff -->
   <!--<project name="multirom" path="system/extras/multirom" remote="Tasssadar" revision="master" />-->
   <!--<project name="multirom" path="system/extras/multirom" remote="z3ntu" revision="patch-1" />-->
