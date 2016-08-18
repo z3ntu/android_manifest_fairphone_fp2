@@ -41,7 +41,7 @@
   <project groups="pdk" name="fp2-dev/device/samsung/manta" path="device/samsung/manta" />
   <project name="fp2-dev/kernel/lk" path="bootable/bootloader/lk" />
   <!--<project name="fp2-dev/kernel/msm" path="kernel" />-->
-  <project name="android_kernel_fairphone_fp2" remote="z3ntu" revision="last_kmsg" path="kernel" />
+  <project name="android_kernel_fairphone_fp2" remote="z3ntu" revision="kexec_new" path="kernel" />
   <project groups="pdk" name="fp2-dev/platform/abi/cpp" path="abi/cpp" />
   <project groups="pdk" name="fp2-dev/platform/art" path="art" />
   <project groups="pdk" name="fp2-dev/platform/bionic" path="bionic" />
